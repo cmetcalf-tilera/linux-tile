@@ -181,4 +181,7 @@ config HAVE_RCU_TABLE_FREE
 config ARCH_HAVE_NMI_SAFE_CMPXCHG
 	bool
 
+config ARCH_WANT_OLD_COMPAT_IPC
+	bool
+
 source "kernel/gcov/Kconfig"
